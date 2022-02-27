@@ -15,7 +15,7 @@ function read(text) {
     speak.text = "My Father Name is Swapon Saha";
   } else if (text == "what is your best language") {
     speak.text = "Javascript is my favorite language";
-  } else if (text == "what is your favorite Player ") {
+  } else if (text == "what is your favorite Player") {
     speak.text = "My favorite Player Name is CR7";
   } else {
     speak.text = "please try again";
