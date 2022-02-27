@@ -8,7 +8,7 @@ function read(text){
     let speak = new SpeechSynthesisUtterance();
     speak.text = text;
     if (text=='hello') {
-        speak.text ='bye'
+        speak.text ='I am fuck you baby'
     }else if (text == "what is your name") {
       speak.text = "My Name is programing hero. I am your Assistants";
     } else if (text == "what is your father name name") {
