@@ -9,10 +9,14 @@ function read(text){
     speak.text = text;
     if (text=='hello') {
         speak.text ='bye'
-    }else if(text=='what is your name'){
-        speak.text='My Name is programing hero. I am your Assignment'
-    }else{
-        speak.text='please try again'
+    }else if (text == "what is your name") {
+      speak.text = "My Name is programing hero. I am your Assistants";
+    } else if (text == "what is your father name name") {
+      speak.text = "My Father Name is Swapon Saha";
+    } else if (text == "what is your bet language") {
+      speak.text = "Javascript is my favorite language";
+    } else {
+      speak.text = "please try again";
     }
     document.getElementById('res').innerText=speak.text
     window.speechSynthesis.speak(speak);
