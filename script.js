@@ -1,3 +1,4 @@
+// simple js voice convertor
 let myFun = new webkitSpeechRecognition();
 myFun.onresult = (e) => {
   let text = e.results[0][0].transcript;
